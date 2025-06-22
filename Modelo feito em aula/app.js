@@ -29,7 +29,7 @@ for (let dado of dados) {
                 <a href=${dado.link} target="_blank">Mais informações</a>
             </div>           
             `;
-}
+
 
 if(!resultados){
     resultados = "<p>Nada foi encontrado</p>"
@@ -39,5 +39,5 @@ section.innerHTML = resultados
 
 }
 }
-
+}
 
